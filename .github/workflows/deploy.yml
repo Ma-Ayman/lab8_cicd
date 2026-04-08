@@ -35,6 +35,6 @@ jobs:
 
             export DOCKERHUB_USERNAME=menna123456
             git pull
-            docker-compose pull
-            docker-compose down
-            docker-compose up -d
+            docker compose pull
+            docker compose down
+            docker compose up -d
