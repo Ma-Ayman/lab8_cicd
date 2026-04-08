@@ -32,6 +32,8 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd ~/lab8_cicd
+
+            export DOCKERHUB_USERNAME=menna123456
             git pull
             docker-compose pull
             docker-compose down
