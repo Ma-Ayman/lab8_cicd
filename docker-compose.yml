@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: ${DOCKERHUB_USERNAME}/lab8_cicd:latest
+    image: menna123456/lab8_cicd:latest
     ports:
       - "3000:3000"
     depends_on:
